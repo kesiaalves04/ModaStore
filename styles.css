@@ -1,0 +1,32 @@
+
+.stApp {
+    background-color: #fff7fb;
+}
+
+h1, h2, h3 {
+    color: #8b245d;
+}
+
+.stButton > button {
+    background-color: #c44586;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.55rem 1rem;
+}
+
+.stButton > button:hover {
+    background-color: #a62f70;
+    color: white;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #f8e4ef;
+}
+
+div[data-testid="stMetric"] {
+    background-color: white;
+    border: 1px solid #f0c9dd;
+    border-radius: 12px;
+    padding: 15px;
+}
