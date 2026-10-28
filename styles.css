@@ -1,32 +1,83 @@
 
+/* Fundo principal */
 .stApp {
     background-color: #fff7fb;
+    color: #29212a;
 }
 
-h1, h2, h3 {
-    color: #8b245d;
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #842653 !important;
 }
 
+/* Textos gerais */
+.stApp p,
+.stApp label,
+.stApp span,
+.stMarkdown,
+.stCaption,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"],
+[data-testid="stMetricDelta"] {
+    color: #29212a !important;
+}
+
+/* Menu lateral */
+section[data-testid="stSidebar"] {
+    background-color: #f4dce9;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #54203b !important;
+}
+
+/* Botões */
 .stButton > button {
-    background-color: #c44586;
-    color: white;
+    background-color: #b83278;
+    color: #ffffff !important;
+    border: 1px solid #b83278;
     border-radius: 10px;
-    border: none;
-    padding: 0.55rem 1rem;
+    font-weight: 600;
 }
 
 .stButton > button:hover {
-    background-color: #a62f70;
-    color: white;
+    background-color: #8f245d;
+    color: #ffffff !important;
+    border-color: #8f245d;
 }
 
-section[data-testid="stSidebar"] {
-    background-color: #f8e4ef;
-}
-
+/* Cartões de indicadores */
 div[data-testid="stMetric"] {
-    background-color: white;
-    border: 1px solid #f0c9dd;
+    background-color: #ffffff;
+    border: 1px solid #e8bfd4;
     border-radius: 12px;
-    padding: 15px;
+    padding: 16px;
+}
+
+/* Campos de texto */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #ffffff;
+    color: #29212a !important;
+    border: 1px solid #cba4b8;
+}
+
+/* Listas de seleção */
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #ffffff;
+}
+
+.stSelectbox div[data-baseweb="select"] * {
+    color: #29212a !important;
+}
+
+/* Tabelas */
+.stDataFrame {
+    border: 1px solid #e8bfd4;
+}
+
+/* Avisos */
+.stAlert p {
+    color: #29212a !important;
 }
